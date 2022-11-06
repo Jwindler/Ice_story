@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +128,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+=======
+# dev folder
+.idea/
+.venv/
+>>>>>>> 04e3834 (First commit)
