@@ -2,9 +2,9 @@
 name = "ice-story"
 version = "0.1.0"
 description = ""
-authors = ["Swindler <jzj@1033199817@qq.com>"]
+authors = ["Swindler <1033199817@qq.com>"]
 readme = "README.md"
-packages = [{include = "ice_story", from = "src"}]
+packages = [{ include = "ice_story", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -16,11 +16,11 @@ black = "^22.10.0"
 click = "8.0.2"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 
 [[tool.poetry.source]]
 name = "tsinghua-source"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
-default = true  # 仅从定义仓库获取
+default = true                                    # 仅从定义仓库获取
