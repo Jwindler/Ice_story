@@ -20,3 +20,5 @@
 
 
 ## 生物学
+
+- [序列操作神器：Seqkit](https://github.com/Jwindler/Ice_story/blob/main/src/md/Seqkit.md)
