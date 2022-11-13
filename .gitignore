@@ -135,4 +135,5 @@ dmypy.json
 package-lock.json
 package.json
 node_modules/
+temp/
 >>>>>>> 04e3834 (First commit)

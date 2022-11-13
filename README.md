@@ -9,16 +9,18 @@
 
 ## 机器学习
 
-- [机器学习：UAMP 深入理解](https://github.com/Jwindler/Ice_story/blob/main/src/md/UMAP.md#%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0uamp-%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3)
+- [机器学习：UMAP 深入理解](https://github.com/Jwindler/Ice_story/blob/main/src/md/machine_learning/UMAP.md)
 
 
 
 ## Python
 
-- [Python 学习资料推荐](https://github.com/Jwindler/Ice_story/blob/main/src/md/python.md)
+- [Python 学习资料推荐](https://github.com/Jwindler/Ice_story/blob/main/src/md/python/python.md)
 
 
 
 ## 生物学
 
-- [序列操作神器：Seqkit](https://github.com/Jwindler/Ice_story/blob/main/src/md/Seqkit.md)
+- [序列操作神器：Seqkit](https://github.com/Jwindler/Ice_story/blob/main/src/md/biology/Seqkit.md)
+
+- [单细胞基础教程：整合分析](https://github.com/Jwindler/Ice_story/blob/main/src/md/biology/scRNA-seq_Integrate.md)（无法下载示例数据集的，请关注上方公众号，并留言）
