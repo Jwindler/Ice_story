@@ -17,6 +17,8 @@
 
 - [Python 学习资料推荐](https://github.com/Jwindler/Ice_story/blob/main/src/python/python.md)
 
+- [使用 `json.load()` 和 `loads()` 进行 `Python` `JSON` 解析](https://github.com/Jwindler/Ice_story/blob/main/src/python/json_load_loads.md)
+
 
 
 ## 生物学
