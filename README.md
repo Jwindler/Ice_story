@@ -10,6 +10,7 @@
 ## 机器学习
 
 - [机器学习：UMAP 深入理解](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/UMAP.md)
+- [如何高效利用 `t-SNE`](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/tSNE.md)
 
 
 
