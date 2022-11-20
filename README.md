@@ -17,7 +17,6 @@
 
 - [Python 学习资料推荐](https://github.com/Jwindler/Ice_story/blob/main/src/python/python.md)
 - [使用 `json.load()` 和 `loads()` 进行 `Python` `JSON` 解析](https://github.com/Jwindler/Ice_story/blob/main/src/python/json_load_loads.md)
-- [RNA-seq ：差异表达分析](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq_workflow.md)
 
 
 
@@ -26,3 +25,5 @@
 - [序列操作神器：Seqkit](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Seqkit.md)
 
 - [单细胞基础教程：整合分析](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq_Integrate.md)（无法下载示例数据集的，请关注上方公众号，并留言）
+
+- [RNA-seq ：差异表达分析](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq_workflow.md)
