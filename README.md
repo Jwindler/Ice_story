@@ -24,11 +24,9 @@
 ## 生物学
 
 - [序列操作神器：Seqkit](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Seqkit.md)
-
+- [Wget 常用方法](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Wget.md)
 - [单细胞基础教程：整合分析](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq_Integrate.md)（无法下载示例数据集的，请关注上方公众号，并留言）
-
 - [RNA-seq ：差异表达分析](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq_workflow.md)
-
 - scRNA-seq：单细胞系列教程
   - [什么是单细胞（一）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/01.md)
   - [计数矩阵是如何生成的？（二）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/02.md)
