@@ -31,6 +31,7 @@
   - [分析流程介绍（1）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/1_1.md)
   - [实验设计（2）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/1_2.md)
   - [分析准备（3）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/1_3.md)
+  - [count 数据探索（4）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_1.md)
   
 - scRNA-seq：单细胞系列教程
   - [什么是单细胞（一）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/01.md)
