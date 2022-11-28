@@ -36,6 +36,7 @@
   - [分析准备（3）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/1_3.md)
   - [count 数据探索（4）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_1.md)
   - [转录组比对番外篇：aligner 与 mapping 区别](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/aligner_vs_mapping.md)
+  - [搞定count归一化（5）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_2.md)
   
 - scRNA-seq：单细胞系列教程
   - [什么是单细胞（一）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/01.md)
