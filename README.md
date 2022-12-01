@@ -24,13 +24,9 @@
 ## 生物学
 
 - [序列操作神器：Seqkit](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Seqkit.md)
-
 - [Wget 常用方法](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Wget.md)
-
-- [单细胞基础教程：整合分析](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/scRNA-seq_Integrate.md)（无法下载示例数据集的，请关注上方公众号，并留言）
-
+- [单细胞基础教程：整合分析](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/scRNA-seq_Integrate.md)（无法下载示例数据集的，请关注下方公众号，并留言）
 - [RNA-seq ：差异表达分析(简洁版)](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/RNA-seq_workflow.md)
-
 - RNA-seq 详细教程
   - [分析流程介绍（1）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/1_1.md)
   - [实验设计（2）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/1_2.md)
@@ -38,7 +34,9 @@
   - [count 数据探索（4）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_1.md)
   - [转录组比对番外篇：aligner 与 mapping 区别](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/aligner_vs_mapping.md)
   - [搞定count归一化（5）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_2.md)
-  
+  - [样本质控（6）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_3.md)
+  - [ `DESeq2` 差异表达分析（7）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_4.md)
+  - [假设检验和多重检验（8）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_5.md)
 - scRNA-seq：单细胞系列教程
   - [什么是单细胞（一）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/01.md)
   - [计数矩阵是如何生成的？（二）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/02.md)
@@ -52,7 +50,13 @@
   - [细胞聚类（十）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/10.md)
   - [marker鉴定（十一）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/11.md)
 
-  
+- 蛋白质组学
+  - [蛋白质组学介绍](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Proteomics/introduction.md)
+
+
+
+
+
 
 ---
 
