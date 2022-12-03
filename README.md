@@ -3,6 +3,12 @@
 
 
 
+## 深度学习
+
+- [提高CV模型训练性能的 9 个技巧](https://github.com/Jwindler/Ice_story/blob/main/src/cv/9_cv_tricks.md)
+
+
+
 ## 机器学习
 
 - [机器学习：UMAP 深入理解](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/UMAP.md)
@@ -37,6 +43,7 @@
   - [样本质控（6）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_3.md)
   - [ `DESeq2` 差异表达分析（7）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_4.md)
   - [假设检验和多重检验（8）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_5.md)
+  - [详解DESeq2流程（9）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/3_1.md)
 - scRNA-seq：单细胞系列教程
   - [什么是单细胞（一）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/01.md)
   - [计数矩阵是如何生成的？（二）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/02.md)
