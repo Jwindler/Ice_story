@@ -23,6 +23,7 @@
 - [性能分析](https://github.com/Jwindler/Ice_story/blob/main/src/python/memory_line_profiler.md)
 - `matplotlib` 可视化 50图
   - [散点图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization_50/01_scatterplot.md)
+  - [气泡图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization_50/02_bubble_chart.md)
 
 
 
@@ -44,6 +45,8 @@
   - [ `DESeq2` 差异表达分析（7）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_4.md)
   - [假设检验和多重检验（8）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/2_5.md)
   - [详解DESeq2流程（9）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/3_1.md)
+  - [Wald test（10）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/3_2.md)
+  - [结果汇总与提取（11）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/3_3.md)
 - scRNA-seq：单细胞系列教程
   - [什么是单细胞（一）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/01.md)
   - [计数矩阵是如何生成的？（二）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/02.md)
