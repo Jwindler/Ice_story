@@ -27,6 +27,14 @@
 
 
 
+## 科研
+
+- 如何写好科研论文
+  - [摘要](https://github.com/Jwindler/Ice_story/blob/main/src/journal/abstract.md)
+  - [引言](https://github.com/Jwindler/Ice_story/blob/main/src/journal/Introduction.md)
+
+
+
 
 ## 生物学
 
@@ -47,6 +55,8 @@
   - [详解DESeq2流程（9）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/3_1.md)
   - [Wald test（10）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/3_2.md)
   - [结果汇总与提取（11）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/3_3.md)
+  - [可视化（12）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/3_4.md)
+  - [似然比检验（13）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/RNA-seq/3_5.md)
 - scRNA-seq：单细胞系列教程
   - [什么是单细胞（一）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/01.md)
   - [计数矩阵是如何生成的？（二）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/02.md)
