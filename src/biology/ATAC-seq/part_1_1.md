@@ -1,177 +1,106 @@
-# 1_1 比对
+# ATAC-seq（Part 1）
 
 
 
-## 质控
+## 1. 简介
 
-在比对之前，我们建议花一些时间查看 FASTQ 文件。一些基本的 QC 检查可以帮助我们了解您的测序是否存在任何偏差，例如读取质量的意外下降或非随机 GC 内容。
+`ATACseq` (Assay for Transposase-Accessible Chromatin using sequencing) 使用转座酶在测序前有效地片段化可访问的 DNA（DNA可极性）。结果提供了一种绘制可访问/开放染色质基因组范围的方法。
 
+与其他技术相比，ATACseq 有几个优点，包括：
 
+- 所需输入材料少（> 10,000 个细胞）
+- 实验所需时间短（约 4 小时）
 
-## Greenleaf
+![ATACseq](https://swindler-typora.oss-cn-chengdu.aliyuncs.com/typora_imgs/image-20221226204237118.png)
 
-在本节中，我们将稍微处理一下 Greenleaf 数据集。
 
-我们将处理从 FASTQ 到 BAM 的 Greenleaf 数据的一个样本，以允许我们审查 ATACseq 数据的一些特征，并创建一些处理过的文件以供审查和进一步分析。
 
+## 2. 酶
 
+- 下面介绍几种不同酶获取数据的差异
 
-## 参考基因组
+![ATACseq, MNaseseq and DNaseseq](https://swindler-typora.oss-cn-chengdu.aliyuncs.com/typora_imgs/image-20221226204320816.png)
 
-首先，我们需要创建一个参考基因组来比对我们的 ATACseq 数据。我们可以创建一个 FASTA 文件用于从 Bioconductor BSGenome 对象进行比对。
 
-这次我们正在处理人类数据，因此我们将使用 `BSgenome.Hsapiens.UCSC.hg19` 库构建 `hg19` 基因组。
 
-```R
-library(BSgenome.Hsapiens.UCSC.hg19)
-mainChromosomes <- paste0("chr",c(1:21,"X","Y","M"))
-mainChrSeq <- lapply(mainChromosomes,
-                     function(x)BSgenome.Hsapiens.UCSC.hg19[[x]])
-names(mainChrSeq) <- mainChromosomes
-mainChrSeqSet <- DNAStringSet(mainChrSeq)
-writeXStringSet(mainChrSeqSet,
-                "BSgenome.Hsapiens.UCSC.hg19.mainChrs.fa")
-```
+- `DNaseseq` - 酶消化以从转录因子结合位点周围的开放染色质中提取信号。
+- `MNaseseq` - 酶消化以提取代表核小体定位的信号。
+- `ATACseq` - 使用转座酶并提供一种**同时从单个样本的转录因子结合位点和核小体位置**提取信号的方法。
 
 
 
-## Rsubread
+## 3. Work
 
-对于 Rsubread，我们必须在 Rsubread 的对齐步骤之前建立我们的索引。
+在[本教程](https://rockefelleruniversity.github.io/RU_ATACseq/presentations/singlepage/RU_ATAC.html "Source")中，我们将使用一些公开的数据来了解 `R` 中 `ATACseq` 处理的一些基础知识。
 
-这里我额外指定参数 indexSplit 为 TRUE 并结合 memory 参数设置为 1000 (1000MB) 以控制 Rsubread 对齐步骤中的内存使用。
+将研究 `ATACseq` 数据在 TSS 上的比对、比对后处理和绘图。
 
-```R
-library(Rsubread)
-buildindex("BSgenome.Hsapiens.UCSC.hg19.mainChrs",
-           "BSgenome.Hsapiens.UCSC.hg19.mainChrs.fa",
-           indexSplit = TRUE,
-           memory = 1000)
-```
 
 
+## 4. 数据
 
-## 比对准备
+本教程中，我们将使用三组已发布的数据。
 
-现在我们有了索引，我们可以比对我们的 ATACseq 读数。由于 ATACseq 数据通常是双端测序，我们需要对比对步骤进行一些小的调整。
+### 4.1. data_1
 
-双端测序数据通常以两个文件的形式出现，通常在文件名中带有 *_1* 和 *_2* 或 *_R1* 和 *_R2* 来表示一个文件是成对的数字。
+第一个数据集来自原始 [ATACseq 论文](https://pubmed.ncbi.nlm.nih.gov/24097267/ "first dataset")。我们将使用 `ATACseq_50k_Rep2` 示例 `GEO - GSM1155958` 可以从 `ENA` 以 `FASTQ` 格式获取数据。
 
-```R
-read1 <- "ATAC_Data/ATAC_FQs/SRR891269_1.fastq.gz"
-read2 <- "ATAC_Data/ATAC_FQs/SRR891269_2.fastq.gz"
-```
+- SAMN02192806 - [here](https://www.ebi.ac.uk/ena/data/view/SAMN02192806 “SAMN02192806”)
 
-我们的两个匹配的双端读取文件将（通常）包含相同数量的读取，并且两个文件中的读取顺序相同。读取名称将跨文件匹配以进行配对读取，但名称中的 1 或 2 除外，以表示读取是一对中的第一个还是第二个。
 
-```R
-require(ShortRead)
-read1 <- readFastq("data/ATACSample_r1.fastq.gz")
-read2 <- readFastq("data/ATACSample_r2.fastq.gz")
-id(read1)[1:2]
-```
 
-![](https://swindler-typora.oss-cn-chengdu.aliyuncs.com/typora_imgs/image-20221227213151892.png)
+### 4.2. data_2
 
+对于第二个数据集，我们将 `UCSD` 的 `Bing Ren` 生成的 `ATACseq` 作为 `ENCODE` 联盟的一部分。它包括来自小鼠几种组织的样本。数据和示例信息的链接包含在下面的列表中。
 
+- Liver day 12 - [ENCSR302LIV](https://www.encodeproject.org/experiments/ENCSR302LIV/ "ENCSR302LIV")
+- Kidney day 15 - [ENCSR023QZX](https://www.encodeproject.org/experiments/ENCSR023QZX/ "ENCSR023QZX")
+- Hindbrain day 12 - [ENCSR088UYE](https://www.encodeproject.org/experiments/ENCSR088UYE/ "ENCSR088UYE")
 
-```R
-id(read2)[1:2]
-```
 
-![](https://swindler-typora.oss-cn-chengdu.aliyuncs.com/typora_imgs/image-20221227213211684.png)
 
+### 4.3. data_3
 
+最后，我完全按照本次教程中的描述处理了来自 `MSKCC` 的 `Christina Leslie` 实验室的一些数据，因此我们可以在练习中回顾 `ATACseq` 数据的一些特征以及 `ENCODE` 管道处理的相同数据。
 
-成对读数之间的距离在 ATACseq 中很重要，它使我们能够区分读数映射与分别指示信号的无核小体和核小体部分的短或长片段。在比对步骤之后，插入大小为我们提供了 read1 和 read2 起点之间的总距离。
+原始数据和处理后的 `BAM` 文件可从 `ENCODEs` 门户网站获得
 
-![](https://swindler-typora.oss-cn-chengdu.aliyuncs.com/typora_imgs/image-20221227213327141.png)
+- T-Reg - [ENCSR724UJS](https://www.encodeproject.org/experiments/ENCSR724UJS/ “ENCSR724UJS”)
 
+FQ 文件可以在此处找到 [read1](https://www.encodeproject.org/files/ENCFF175VOD/@@download/ENCFF175VOD.fastq.gz "read1") 和此处的 [read2](https://www.encodeproject.org/files/ENCFF447BGX/@@download/ENCFF447BGX.fastq.gz "read2")。我们还将使用对齐数据作为[BAM](https://www.encodeproject.org/files/ENCFF053CGD/@@download/ENCFF053CGD.bam "BAM") 文件，该文件可在此处找到。
 
 
-我们可以对 DNA 使用标准比对（对于 ChIPseq），但我们增加了最大允许片段长度以捕获代表多核小体信号的长片段。
 
-此处设置的最大允许片段长度基于 Greenleaf 研究中使用的参数。为了控制允许的最大片段长度，我将 maxFragLength 参数设置为 2000。我还将 unique 参数设置为 TRUE 以仅包括唯一映射读取。
+## 5. 参考数据
 
-```R
-align("BSgenome.Hsapiens.UCSC.hg19.mainChrs",
-      readfile1=read1,readfile2=read2,
-      output_file = "ATAC_50K_2.bam",
-      nthreads=2,type=1,
-      unique=TRUE,maxFragLength = 2000)
-```
+对于 `ATACseq` 分析，我们需要一些参考数据。
 
-要使用 Rbowtie2，我们还必须在比对之前构建我们的索引。在这里，我们使用 bowtie2_build() 函数指定我们的 FASTA 文件的参数来构建索引和所需的索引名称。
+- `fasta` 格式的参考基因组——我们将从 `BSGenome Bioconductor` 注释包中检索。
+- 基因模型——我们将从 `TxDb Bioconductor` 注释包中检索这些模型。
+- Blacklists 特定于基因组的区域。这些可以在此处的 [ENCODE 门户](https://www.encodeproject.org/annotations/ENCSR636HFF/ "ENCODE portal")中找到
 
-```R
-library(Rbowtie2)
-bowtie2_build(references="BSgenome.Hsapiens.UCSC.hg19.mainChrs.fa", 
-              bt2Index="BSgenome.Hsapiens.UCSC.hg19.mainChrs_bowtie2")
-```
 
 
+## 6. 已处理数据
 
-## 解压
+我们从以下链接中的公共测序数据开始，并使用 `Bioconductor` 中的参考数据。由于其中一些处理步骤可能需要一点时间，因此我提供了指向预处理结果的链接。
 
-一旦我们有了索引，我们必须使用 gunzip() 函数解压缩我们的 FASTQ 文件。
+来自我们对齐/排序/索引的 `BAM` 文件和 `BAI` 索引：
 
-```R
-gunzip("ATAC_Data/ATAC_FQs/SRR891269_1.fastq.gz")
-gunzip("ATAC_Data/ATAC_FQs/SRR891269_2.fastq.gz")
-```
+- [SAMN02192806 - Greenleaf BAM](https://s3.amazonaws.com/rubioinformatics/ATAC_Workshop/ATAC_Data/ATAC_BAM/Sorted_ATAC_50K_2.bam) - `Greenleaf` 示例的完整 `BAM` 文件在我们的 `Rsubread` 对齐、排序和索引中生成。
+- [SAMN02192806 - Greenleaf BAI index](https://s3.amazonaws.com/rubioinformatics/ATAC_Workshop/ATAC_Data/ATAC_BAM/Sorted_ATAC_50K_2.bam.bai) - `Greenleaf` 示例中 `BAM` 的 `BAI` 索引文件在我们的对齐、排序和索引中生成如下。
 
 
 
-## 比对
+小型 `BAM`、`peak calls` 和目录结构。
 
-现在我们可以使用 bowtie2() 函数将我们的 FASTQ 与基因组对齐，指定我们的 read1 和 read2 到 seq1 和 seq2 参数。最后，我们可以使用 asBam() 函数将输出的 SAM 文件转换为 BAM 文件。
+- [ATAC_Workshop_Essential.zip](https://s3.amazonaws.com/rubioinformatics/ATAC_Workshop_Essential.zip) - 需要额外的文件和目录结构。
 
-注意NOTE: SAM 和未压缩的FASTQ 文件会占用大量磁盘空间。完成后，最好重新压缩 FASTQ 并使用 unlink() 函数删除 SAM 文件。
+下载上述文件并解压缩 `ATAC_Workshop.zip` 后，您应该将 `Sorted_ATAC_50K_2.bam` 和 `Sorted_ATAC_50K_2.bam.bai` 文件移动到 `ATAC_Workshop/ATAC_Data/ATAC_BAM/` 。您还应该将 `RU_ATAC_Workshop.Rmd` 复制到 `ATAC_Workshop/` 目录，然后打开以确保所有相对路径都是正确的。
 
-```R
-library(Rsamtools)
-bowtie2(bt2Index = "BSgenome.Hsapiens.UCSC.hg19.mainChrs_bowtie2",
-          samOutput = "ATAC_50K_2_bowtie2.sam",
-          seq1 = "ATAC_Data/ATAC_FQs/SRR891269_1.fastq",
-          seq1 = "ATAC_Data/ATAC_FQs/SRR891269_2.fastq"
-        )
-asBam("ATAC_50K_2_bowtie2.sam")
-```
 
 
+与上述相同，但具有用于计数的 `BAM` 以及小型 `BAM`、`peak calls` 和目录结构。
 
-## 排序
-
-比对后，我们希望对 BAM 文件进行排序和索引，以便与外部工具一起使用。首先，我们按序列顺序对比对数据进行排序（此处不是 Read Name）。然后我们索引我们的文件，允许其他程序（例如 IGV、Samtools）和我们将使用的 R/Bioconductor 包快速访问特定的基因组位置。
-
-```R
-library(Rsamtools)
-sortedBAM <- file.path(dirname(outBAM),
-                       paste0("Sorted_",basename(outBAM))
-                       )
-
-sortBam(outBAM,gsub("\\.bam","",basename(sortedBAM)))
-indexBam(sortedBAM)
-```
-
-
-
-## 结果探索
-
-在 ATACseq 中，我们将要检查映射读取跨染色体的分布。我们可以使用 idxstatsBam() 函数检查每条染色体上映射读取的数量。已知 ATACseq 在线粒体染色体上具有高信号，因此我们可以在此处进行检查。
-
-```R
-library(Rsamtools)
-mappedReads <- idxstatsBam(sortedBAM)
-```
-
-我们现在可以使用映射的读取数据框来制作跨染色体读取的条形图。在这个例子中，我们看到了线粒体基因组映射率很高的情况。
-
-```R
-library(ggplot2)
-
-ggplot(mappedReads, aes(seqnames, mapped, fill = seqnames)) + geom_bar(stat = "identity") +
-    coord_flip()
-```
-
-![](https://swindler-typora.oss-cn-chengdu.aliyuncs.com/typora_imgs/image-20221227214008757.png)
+- [Bigwigs](https://s3.amazonaws.com/rubioinformatics/ATAC_bigWigs.zip) - 在 IGV 中审查的 BigWigs.
+- [ATAC_Workshop.zip](https://s3.amazonaws.com/rubioinformatics/ATAC_Workshop.zip) - 附加文件和目录结构。
