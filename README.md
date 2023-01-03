@@ -8,7 +8,7 @@
 - [提高CV模型训练性能的 9 个技巧](https://github.com/Jwindler/Ice_story/blob/main/src/cv/9_cv_tricks.md)
 - [模型性能分析：ROC 分析和 AUC](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/ROC_AUC.md)
 - [数据分析：5个数据相关性指标](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/5_data_silmilarity_metrics.md)
-- [利用mAP评估目标检测模型](https://github.com/Jwindler/Ice_story/blob/main/src/cv/ mAP_evaluate.md)
+- [利用mAP评估目标检测模型](https://github.com/Jwindler/Ice_story/blob/main/src/cv/mAP_evaluate.md)
 
 
 
