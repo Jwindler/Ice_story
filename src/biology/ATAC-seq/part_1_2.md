@@ -1,14 +1,14 @@
-# 1_1 比对
+# ATAC-seq分析：比对（3）
 
 
 
-## 质控
+## 1. 质控
 
 在比对之前，我们建议花一些时间查看 FASTQ 文件。一些基本的 QC 检查可以帮助我们了解您的测序是否存在任何偏差，例如读取质量的意外下降或非随机 GC 内容。
 
 
 
-## Greenleaf
+## 2. Greenleaf
 
 在本节中，我们将稍微处理一下 Greenleaf 数据集。
 
@@ -16,7 +16,7 @@
 
 
 
-## 参考基因组
+## 3.参考基因组
 
 首先，我们需要创建一个参考基因组来比对我们的 ATACseq 数据。我们可以创建一个 FASTA 文件用于从 Bioconductor BSGenome 对象进行比对。
 
@@ -35,7 +35,7 @@ writeXStringSet(mainChrSeqSet,
 
 
 
-## Rsubread
+## 4. Rsubread
 
 对于 Rsubread，我们必须在 Rsubread 的对齐步骤之前建立我们的索引。
 
@@ -51,7 +51,7 @@ buildindex("BSgenome.Hsapiens.UCSC.hg19.mainChrs",
 
 
 
-## 比对准备
+## 5. 比对准备
 
 现在我们有了索引，我们可以比对我们的 ATACseq 读数。由于 ATACseq 数据通常是双端测序，我们需要对比对步骤进行一些小的调整。
 
@@ -111,7 +111,7 @@ bowtie2_build(references="BSgenome.Hsapiens.UCSC.hg19.mainChrs.fa",
 
 
 
-## 解压
+## 6. 解压
 
 一旦我们有了索引，我们必须使用 gunzip() 函数解压缩我们的 FASTQ 文件。
 
@@ -122,7 +122,7 @@ gunzip("ATAC_Data/ATAC_FQs/SRR891269_2.fastq.gz")
 
 
 
-## 比对
+## 7. 比对
 
 现在我们可以使用 bowtie2() 函数将我们的 FASTQ 与基因组对齐，指定我们的 read1 和 read2 到 seq1 和 seq2 参数。最后，我们可以使用 asBam() 函数将输出的 SAM 文件转换为 BAM 文件。
 
@@ -140,7 +140,7 @@ asBam("ATAC_50K_2_bowtie2.sam")
 
 
 
-## 排序
+## 8. 排序
 
 比对后，我们希望对 BAM 文件进行排序和索引，以便与外部工具一起使用。首先，我们按序列顺序对比对数据进行排序（此处不是 Read Name）。然后我们索引我们的文件，允许其他程序（例如 IGV、Samtools）和我们将使用的 R/Bioconductor 包快速访问特定的基因组位置。
 
@@ -156,7 +156,7 @@ indexBam(sortedBAM)
 
 
 
-## 结果探索
+## 9. 结果探索
 
 在 ATACseq 中，我们将要检查映射读取跨染色体的分布。我们可以使用 idxstatsBam() 函数检查每条染色体上映射读取的数量。已知 ATACseq 在线粒体染色体上具有高信号，因此我们可以在此处进行检查。
 

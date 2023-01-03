@@ -1,8 +1,8 @@
-# 1_2 比对后处理
+# ATAC-seq分析：比对后处理（4）
 
 
 
-## 结果处理
+## 1. 结果处理
 
 现在我们已经处理了 Greenleaf ATACseq 双端数据，我们可以开始处理比对。
 
@@ -42,7 +42,7 @@ class(atacReads)
 
 
 
-## GAlignmentPairs
+## 2. GAlignmentPairs
 
 GAlignmentPairs 对象包含有关我们配对读取的信息。它将每次读取的信息成对存储在并行的 GAlignments 对象中。
 
@@ -66,7 +66,7 @@ read2[1, ]
 
 
 
-## MapQ 分数
+## 3. MapQ 分数
 
 我们可以做的第一件事是获取 read1 和 read2 的 MapQ 分数分布。我们可以使用 mcols() 函数为每次读取访问它，以访问每次读取的 GAalignments 对象的 mapq 槽。
 
@@ -80,7 +80,7 @@ read1MapQ[1:2]
 
 
 
-## MapQ 频率
+## 4. MapQ 频率
 
 然后我们可以使用 table() 函数来汇总每个成对读取的分数频率。
 
@@ -102,7 +102,7 @@ read2MapQFreqs
 
 
 
-## 可视化
+## 5. 可视化
 
 最后，我们可以使用 ggplot2 绘制成对读取的每个 MapQ 分布。
 
@@ -120,7 +120,7 @@ ggplot(toPlot, aes(x = MapQ, y = Frequency, fill = MapQ)) + geom_bar(stat = "ide
 
 
 
-## 插入大小
+## 6. 插入大小
 
 现在我们已经将配对的对齐数据读入 R，我们可以从附加到每个读取对的 GAlignments 对象的 elementMetadata() 中检索插入大小。由于正确配对的读取将具有相同的插入大小长度，因此我们从 read1 中提取插入大小。
 
@@ -134,7 +134,7 @@ head(insertSizes)
 
 
 
-## 可视化
+## 7. 可视化
 
 ATACseq 应该代表对应于无核小体、单核小体和多核小体部分的片段长度的混合。我们可以使用 table() 函数来检索每个片段长度出现的向量。
 

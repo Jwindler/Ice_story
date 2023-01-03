@@ -1,8 +1,8 @@
-# Part_2_5 Motifs
+# ATAC-seq分析：Motifs分析（11）
 
 
 
-## 切割位点
+## 1. 切割位点
 
 ATACseq 应该在较小的保护区（如转录因子结合位点）周围生成较短的片段（我们的无核小体区域）。
 
@@ -14,7 +14,7 @@ ATACseq 应该在较小的保护区（如转录因子结合位点）周围生成
 
 
 
-## 查找 motifs
+## 2. 查找 motifs
 
 我们需要确定 CTCF 基序在基因组中的位置，因此首先我们需要知道 CTCF 基序是什么样的。
 
@@ -51,7 +51,7 @@ ctcfMotif[, 1:4]
 
 
 
-## PWMs 可视化
+## 3. PWMs 可视化
 
 我们可以使用 seqLogo 包和 seqLogo 函数可视化主题中 DNA 碱基的频率。
 
@@ -64,7 +64,7 @@ seqLogo(ctcfMotif)
 
 
 
-## PWMs 搜索
+## 4. PWMs 搜索
 
 我们现在可以将 matchPWM() 函数与我们新获得的 CTCF PWM 一起使用。在这里，我们将使用 BSgenome 库中为人类 BSgenome.Hsapiens.UCSC.hg19 提供的序列搜索 Chr20 上的序列。结果是一个 Views 对象，类似于 IRanges 对象。
 
@@ -88,7 +88,7 @@ toCompare
 
 
 
-## 切割位点分析
+## 5. 切割位点分析
 
 要绘制切割位点，我们希望只考虑读取的 5' 端，并且需要调整已知的 5' 读取偏移量到实际 T5 切割位点。
 

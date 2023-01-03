@@ -1,8 +1,8 @@
-# 1_3
+# ATAC-seq分析：数据处理（5）
 
 
 
-## 子集划分
+## 1. 子集划分
 
 我们可能希望将比对的读数分成代表核小体游离和核小体占据的读数。在这里，我们通过使用插入大小来过滤读取，为代表无核小体、单核小体和双核小体的读取创建 BAM 文件。
 
@@ -14,7 +14,7 @@ atacReads_diNuc <- atacReads[insertSizes > 315 & insertSizes < 437, ]
 
 
 
-## BAM创建
+## 2. BAM创建
 
 读取的结果可以写回 BAM 文件，用于我们分析的其他部分，或者通过 rtracklayer 包中的函数在 IGV 等程序中进行可视化。
 
@@ -31,7 +31,7 @@ export(atacReads_diNuc, diNucBam, format = "bam")
 
 
 
-## 创建 GRanges 片段
+## 3. 创建 GRanges 片段
 
 我们可以从单端读取中重新创建全长片段，以评估重复率并创建片段的 bigwig。在这里，我们使用 granges() 函数从配对的单端读取中重新创建完整片段。
 
@@ -66,7 +66,7 @@ nonRedundantFraction
 
 
 
-## 创建  bigWig 
+## 4. 创建  bigWig 
 
 通过创建一个 bigWig 文件，我们可以大大加快在基因组浏览器中查看 ATACseq 信号堆积的速度。此时可以对总映射读取进行额外的标准化。
 
