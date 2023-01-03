@@ -6,6 +6,9 @@
 ## 深度学习
 
 - [提高CV模型训练性能的 9 个技巧](https://github.com/Jwindler/Ice_story/blob/main/src/cv/9_cv_tricks.md)
+- [模型性能分析：ROC 分析和 AUC](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/ROC_AUC.md)
+- [数据分析：5个数据相关性指标](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/5_data_silmilarity_metrics.md)
+- [利用mAP评估目标检测模型](https://github.com/Jwindler/Ice_story/blob/main/src/cv/ mAP_evaluate.md)
 
 
 
@@ -71,9 +74,36 @@
   - [数据整合（九）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/09.md)
   - [细胞聚类（十）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/10.md)
   - [marker鉴定（十一）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/11.md)
-
 - 蛋白质组学
   - [蛋白质组学介绍](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Proteomics/introduction.md)
+
+
+
+- ATACseq
+
+  - [ATAC-seq分析：教程简介（1）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/ATAC-seq/part_0.md)
+
+  - [ATAC-seq分析：数据介绍（2）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/ATAC-seq/part_1_1.md)
+
+  - [ATAC-seq分析：比对（3）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/ATAC-seq/part_1_2.md)
+  
+  - [ATAC-seq分析：比对后处理（4）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/ATAC-seq/part_1_3.md)
+  
+  - [ATAC-seq分析：数据处理（5）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/ATAC-seq/part_1_4.md)
+  
+  - [ATAC-seq分析：数据质控（6）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/ATAC-seq/part_1_QC.md)
+  
+  - [ATAC-seq分析：TSS 信号（7）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/ATAC-seq/part_2_1.md)
+  
+  - [ATAC-seq分析：Peak Calling（8）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/ATAC-seq/part_2_2.md)
+  
+  - [ATAC-seq分析：Annotating Peaks（9）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/ATAC-seq/part_2_3.md)
+  
+  - [ATAC-seq分析：差异分析（10）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/ATAC-seq/part_2_4.md)
+  
+  - [ATAC-seq分析：Motifs分析（11）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/ATAC-seq/part_2_5.md)
+  
+    
 
 
 
