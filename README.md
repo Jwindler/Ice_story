@@ -27,6 +27,18 @@
 - `matplotlib` 可视化 50图
   - [散点图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization_50/01_scatterplot.md)
   - [气泡图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization_50/02_bubble_chart.md)
+- Python 异步教程
+  - [Python 异步：完整教程导读](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_0.md)
+  - [Python 异步: 什么是异步编程？ （1）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_1.md)
+  - [Python 异步: 什么是异步？ （2）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_2.md)
+  - [Python 异步: 什么时候使用异步？（3）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_3.md)
+
+
+
+
+## 数统
+
+- [数据分析：通俗易懂假设检验](https://github.com/Jwindler/Ice_story/blob/main/src/math/introh_hypothesis_test.md)
 
 
 
