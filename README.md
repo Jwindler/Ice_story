@@ -9,6 +9,7 @@
 - [模型性能分析：ROC 分析和 AUC](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/ROC_AUC.md)
 - [数据分析：5个数据相关性指标](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/5_data_silmilarity_metrics.md)
 - [利用mAP评估目标检测模型](https://github.com/Jwindler/Ice_story/blob/main/src/cv/mAP_evaluate.md)
+- [深度学习中的潜在空间](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Latent_Space.md)
 
 
 
@@ -16,6 +17,8 @@
 
 - [机器学习：UMAP 深入理解](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/UMAP.md)
 - [如何高效利用 `t-SNE`](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/tSNE.md)
+- [机器学习：如何解决类别不平衡问题](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/class_imbalance.md)
+- [机器（深度）学习中的 Dropout](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Dropout.md)
 - [机器学习: Label vs. One Hot Encoder](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/label_vs_one_hot.md)
 
 
@@ -28,6 +31,7 @@
 - `matplotlib` 可视化 50图
   - [散点图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization_50/01_scatterplot.md)
   - [气泡图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization_50/02_bubble_chart.md)
+- [9个Python 内置装饰器: 显著优化代码](https://github.com/Jwindler/Ice_story/blob/main/src/python/9_decorators.md)
 - Python 异步教程
   - [Python 异步：完整教程导读](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_0.md)
   - [Python 异步: 什么是异步编程？ （1）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_1.md)
