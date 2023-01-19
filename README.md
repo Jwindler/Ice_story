@@ -16,6 +16,7 @@
 
 - [机器学习：UMAP 深入理解](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/UMAP.md)
 - [如何高效利用 `t-SNE`](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/tSNE.md)
+- [机器学习: Label vs. One Hot Encoder](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/label_vs_one_hot.md)
 
 
 
@@ -32,6 +33,7 @@
   - [Python 异步: 什么是异步编程？ （1）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_1.md)
   - [Python 异步: 什么是异步？ （2）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_2.md)
   - [Python 异步: 什么时候使用异步？（3）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_3.md)
+  - [Python 异步: 协程（4）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_4.md)
 
 
 
