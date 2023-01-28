@@ -41,6 +41,7 @@
   - [Python 异步: 定义、创建和运行协程（5）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_5.md)
   - [Python 异步: 什么是事件循环 ?（6）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_6.md)
   - [Python 异步: 创建和运行异步任务（7）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_7.md)
+  - [Python 异步: 使用和查询任务（8）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_8.md)
 
 
 
