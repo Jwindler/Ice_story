@@ -50,6 +50,8 @@ Python 异步教程
 - [Python 异步: 当前和正在运行的任务（9）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_9.md)
 - [Python 异步: 同时运行多个协程（10）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_10.md)
 
+- [Python 异步: 等待任务集合（11）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_11.md)
+
 
 
 
@@ -152,6 +154,8 @@ scRNA-seq：单细胞系列教程
 - [ChIP-seq 分析：文库的复杂性和丰富性（7）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Chip-seq/part_2_3.md)
 - [ChIP-seq 分析：Call Peak（8）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Chip-seq/part_2_4.md)
 - [ChIP-seq 分析：Peak 注释与可视化（9）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Chip-seq/part_2_5.md)
+- [ChIP-seq 分析：数据与Peak 基因注释（10）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Chip-seq/part_3_1.md)
+- [ChIP-seq 分析：基因集富集（11）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Chip-seq/part_3_2.md)
 
 
 
