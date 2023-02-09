@@ -1,5 +1,5 @@
 # Ice_story
-本仓库用于存放一些`Python`，机器学习，深度学习，生命数据科学相关的学习教程与脚本。
+本仓库用于存放一些生命数据科学（生物信息学），机器学习，深度学习，`Python`相关的学习教程与脚本。
 
 
 
@@ -10,6 +10,7 @@
 - [数据分析：5个数据相关性指标](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/5_data_silmilarity_metrics.md)
 - [利用mAP评估目标检测模型](https://github.com/Jwindler/Ice_story/blob/main/src/cv/mAP_evaluate.md)
 - [深度学习中的潜在空间](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Latent_Space.md)
+- [使用 PyNeuraLogic 超越 Transformers](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/PyNeuraLogic.md)
 
 
 
@@ -20,6 +21,7 @@
 - [机器学习：如何解决类别不平衡问题](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/class_imbalance.md)
 - [机器（深度）学习中的 Dropout](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Dropout.md)
 - [机器学习: Label vs. One Hot Encoder](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/label_vs_one_hot.md)
+- [机器学习算法：随机森林](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Random_Forest.md)
 
 
 
@@ -49,8 +51,10 @@ Python 异步教程
 - [Python 异步: 使用和查询任务（8）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_8.md)
 - [Python 异步: 当前和正在运行的任务（9）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_9.md)
 - [Python 异步: 同时运行多个协程（10）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_10.md)
-
 - [Python 异步: 等待任务集合（11）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_11.md)
+
+- [Python 异步: 等待有时间限制的协程（12）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_12.md)
+- [Python 异步: 保护任务免于取消（13）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_11.md)
 
 
 
@@ -156,6 +160,10 @@ scRNA-seq：单细胞系列教程
 - [ChIP-seq 分析：Peak 注释与可视化（9）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Chip-seq/part_2_5.md)
 - [ChIP-seq 分析：数据与Peak 基因注释（10）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Chip-seq/part_3_1.md)
 - [ChIP-seq 分析：基因集富集（11）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Chip-seq/part_3_2.md)
+- [ChIP-seq 分析：GO 功能测试与 Motifs 分析（12）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Chip-seq/part_3_3.md)
+- [ChIP-seq 分析：TF 结合和表观遗传状态（13）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Chip-seq/part_4_1.md)
+- [ChIP-seq 分析：Consensus Peaks（14）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Chip-seq/part_4_2.md)
+- [ChIP-seq 分析：Differential Peaks（15）](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Chip-seq/part_4_3.md)
 
 
 
