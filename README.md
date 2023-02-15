@@ -22,6 +22,7 @@
 - [机器（深度）学习中的 Dropout](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Dropout.md)
 - [机器学习: Label vs. One Hot Encoder](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/label_vs_one_hot.md)
 - [机器学习算法：随机森林](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Random_Forest.md)
+- [机器学习算法：支持向量机](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/SVM.md)
 
 
 
