@@ -57,6 +57,7 @@ Python 异步教程
 - [Python 异步: 在 Asyncio 中运行阻塞任务（14）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_14.md)
 - [Python 异步: 异步迭代器（15）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_15.md)
 - [Python 异步: 异步生成器（16）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_16.md)
+- [Python 异步: 异步上下文管理器（17）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_17.md)
 
 
 
