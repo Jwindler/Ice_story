@@ -10,7 +10,13 @@
 - [数据分析：5个数据相关性指标](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/5_data_silmilarity_metrics.md)
 - [利用mAP评估目标检测模型](https://github.com/Jwindler/Ice_story/blob/main/src/cv/mAP_evaluate.md)
 - [深度学习中的潜在空间](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Latent_Space.md)
+
+
+
+### Transformer
+
 - [使用 PyNeuraLogic 超越 Transformers](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/PyNeuraLogic.md)
+- [Transformer 模型：入门详解（1）](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/Transformer/transformer_model_1.md)
 
 
 
@@ -23,6 +29,10 @@
 - [机器学习: Label vs. One Hot Encoder](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/label_vs_one_hot.md)
 - [机器学习算法：随机森林](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Random_Forest.md)
 - [机器学习算法：支持向量机](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/SVM.md)
+- [ICA简介：独立成分分析](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/ICA.md)
+- [循序渐进的基础知识：文本分类器](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Text_Classifier.md)
+
+- [可视化反卷积操作](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/vis_deconv.md)
 
 
 
@@ -60,6 +70,8 @@ Python 异步教程
 - [Python 异步: 异步生成器（16）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_16.md)
 - [Python 异步: 异步上下文管理器（17）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_17.md)
 - [Python 异步: 异步推导式（18）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_18.md)
+- [Python 异步: 在非阻塞子进程中运行命令（19）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_19.md)
+- [Python 异步: 非阻塞流（20）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_20.md)
 
 
 
