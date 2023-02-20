@@ -1,10 +1,6 @@
 # Ice_story
 本仓库用于存放一些生命数据科学（生物信息学），机器学习，深度学习，`Python`相关的学习教程与脚本。
 
-- 目录
-
-[toc]
-
 
 
 ## 深度学习
@@ -76,6 +72,7 @@ Python 异步教程
 - [Python 异步: 异步推导式（18）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_18.md)
 - [Python 异步: 在非阻塞子进程中运行命令（19）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_19.md)
 - [Python 异步: 非阻塞流（20）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_20.md)
+- [Python 异步: 检查网站状态示例（21）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_21.md)
 
 
 
