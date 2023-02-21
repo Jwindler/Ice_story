@@ -73,6 +73,7 @@ Python 异步教程
 - [Python 异步: 在非阻塞子进程中运行命令（19）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_19.md)
 - [Python 异步: 非阻塞流（20）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_20.md)
 - [Python 异步: 检查网站状态示例（21）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_21.md)
+- [Python 异步: 常见错误（22）](https://github.com/Jwindler/Ice_story/blob/main/src/python/Asyncio/Asyncio_22.md)
 
 
 
