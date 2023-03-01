@@ -31,8 +31,9 @@
 - [机器学习算法：支持向量机](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/SVM.md)
 - [ICA简介：独立成分分析](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/ICA.md)
 - [循序渐进的基础知识：文本分类器](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Text_Classifier.md)
-
 - [可视化反卷积操作](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/vis_deconv.md)
+- [降维算法: 奇异值分解SVD](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/SVD.md)
+- [使用 Python 探索 感知机 算法](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/perceptron.md)
 
 
 
@@ -103,6 +104,14 @@ Python 异步教程 (已完结)
 - [单细胞基础教程：整合分析](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/scRNA-seq_Integrate.md)（无法下载示例数据集的，请关注下方公众号，并留言）
 
 
+
+### Evolution
+
+- [系统发育树初步剖析](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Evolution/Phylogenetic_trees.md)
+
+- [构建系统发育树简述](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Evolution/build_phy_tree.md)
+
+  
 
 ### RNA-seq
 
