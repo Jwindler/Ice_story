@@ -3,23 +3,6 @@
 
 
 
-## 深度学习
-
-- [提高CV模型训练性能的 9 个技巧](https://github.com/Jwindler/Ice_story/blob/main/src/cv/9_cv_tricks.md)
-- [模型性能分析：ROC 分析和 AUC](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/ROC_AUC.md)
-- [数据分析：5个数据相关性指标](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/5_data_silmilarity_metrics.md)
-- [利用mAP评估目标检测模型](https://github.com/Jwindler/Ice_story/blob/main/src/cv/mAP_evaluate.md)
-- [深度学习中的潜在空间](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Latent_Space.md)
-
-
-
-### Transformer
-
-- [使用 PyNeuraLogic 超越 Transformers](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/PyNeuraLogic.md)
-- [Transformer 模型：入门详解（1）](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/Transformer/transformer_model_1.md)
-
-
-
 ## 机器学习
 
 - [机器学习：UMAP 深入理解](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/UMAP.md)
@@ -34,6 +17,25 @@
 - [可视化反卷积操作](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/vis_deconv.md)
 - [降维算法: 奇异值分解SVD](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/SVD.md)
 - [使用 Python 探索 感知机 算法](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/perceptron.md)
+- [层次聚类算法](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Hierarchical_Cluster.md)
+- [机器学习模型的性能评估方法](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/performance_estimation.md)
+
+
+
+### Transformer
+
+- [使用 PyNeuraLogic 超越 Transformers](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/PyNeuraLogic.md)
+- [Transformer 模型：入门详解（1）](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/Transformer/transformer_model_1.md)
+
+
+
+## 深度学习
+
+- [提高CV模型训练性能的 9 个技巧](https://github.com/Jwindler/Ice_story/blob/main/src/cv/9_cv_tricks.md)
+- [模型性能分析：ROC 分析和 AUC](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/ROC_AUC.md)
+- [数据分析：5个数据相关性指标](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/5_data_silmilarity_metrics.md)
+- [利用mAP评估目标检测模型](https://github.com/Jwindler/Ice_story/blob/main/src/cv/mAP_evaluate.md)
+- [深度学习中的潜在空间](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Latent_Space.md)
 
 
 
@@ -93,6 +95,8 @@ Python 异步教程 (已完结)
 - 如何写好科研论文
   - [摘要](https://github.com/Jwindler/Ice_story/blob/main/src/journal/abstract.md)
   - [引言](https://github.com/Jwindler/Ice_story/blob/main/src/journal/Introduction.md)
+
+- [同行评审期刊文章指南](https://github.com/Jwindler/Ice_story/blob/main/src/journal/review.md)
 
 
 
