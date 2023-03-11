@@ -20,6 +20,8 @@
 - [层次聚类算法](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Hierarchical_Cluster.md)
 - [机器学习模型的性能评估方法](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/performance_estimation.md)
 
+- [用 Dropout 正则化对抗 过拟合](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Regularization.md)
+
 
 
 ### Transformer
@@ -48,6 +50,7 @@
   - [散点图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization_50/01_scatterplot.md)
   - [气泡图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization_50/02_bubble_chart.md)
 - [9个Python 内置装饰器: 显著优化代码](https://github.com/Jwindler/Ice_story/blob/main/src/python/9_decorators.md)
+- [Pandas 高效数据选择指南](https://github.com/Jwindler/Ice_story/blob/main/src/python/pandas_guide.md)
 
 
 
