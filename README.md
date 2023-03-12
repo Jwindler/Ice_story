@@ -51,6 +51,8 @@
   - [气泡图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization_50/02_bubble_chart.md)
 - [9个Python 内置装饰器: 显著优化代码](https://github.com/Jwindler/Ice_story/blob/main/src/python/9_decorators.md)
 - [Pandas 高效数据选择指南](https://github.com/Jwindler/Ice_story/blob/main/src/python/pandas_guide.md)
+- [Python 闭包使用详解(内含实例)](https://github.com/Jwindler/Ice_story/blob/main/src/python/closure.md)
+- [Python 包 install+import+管理用法总结](https://github.com/Jwindler/Ice_story/blob/main/src/python/import.md)
 
 
 
