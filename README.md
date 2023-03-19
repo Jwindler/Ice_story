@@ -3,6 +3,12 @@
 
 
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Jwindler/Ice_story&type=Date)](https://star-history.com/#Jwindler/Ice_story&Date)
+
+
+
 ## 机器学习
 
 - [机器学习：UMAP 深入理解](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/UMAP.md)
