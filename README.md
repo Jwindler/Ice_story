@@ -28,6 +28,9 @@
 
 - [用 Dropout 正则化对抗 过拟合](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Regularization.md)
 
+- [自然语言处理知识图谱的十年](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Knowledge_Graphs.md)
+- [机器学习：XGBoost算法介绍](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/XGBOOST.md)
+
 
 
 ### Transformer
@@ -44,6 +47,9 @@
 - [数据分析：5个数据相关性指标](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/5_data_silmilarity_metrics.md)
 - [利用mAP评估目标检测模型](https://github.com/Jwindler/Ice_story/blob/main/src/cv/mAP_evaluate.md)
 - [深度学习中的潜在空间](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Latent_Space.md)
+
+- [自然语言处理：词嵌入简介](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/nlp/1_Word_Embeddings.md)
+- [Word2Vec：一种基于预测的方法](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/nlp/2_Word2Vec.md)
 
 
 
