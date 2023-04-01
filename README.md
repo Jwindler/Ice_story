@@ -37,6 +37,7 @@
 
 - [使用 PyNeuraLogic 超越 Transformers](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/PyNeuraLogic.md)
 - [Transformer 模型：入门详解（1）](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/Transformer/transformer_model_1.md)
+- [深入了解 Transformers –  Part 1: 介绍 Transformer 模型](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/Transformer/transformer_model_2.md)
 
 
 
