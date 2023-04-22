@@ -38,6 +38,7 @@
 - [使用 PyNeuraLogic 超越 Transformers](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/PyNeuraLogic.md)
 - [Transformer 模型：入门详解（1）](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/Transformer/transformer_model_1.md)
 - [深入了解 Transformers –  Part 1: 介绍 Transformer 模型](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/Transformer/transformer_model_2.md)
+- [Transformers 发展一览](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/Transformer/map.md)
 
 
 
@@ -48,9 +49,9 @@
 - [数据分析：5个数据相关性指标](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/5_data_silmilarity_metrics.md)
 - [利用mAP评估目标检测模型](https://github.com/Jwindler/Ice_story/blob/main/src/cv/mAP_evaluate.md)
 - [深度学习中的潜在空间](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Latent_Space.md)
-
 - [自然语言处理：词嵌入简介](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/nlp/1_Word_Embeddings.md)
 - [Word2Vec：一种基于预测的方法](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/nlp/2_Word2Vec.md)
+- [Pytorch 2.0 如何通过算子融合和 CPU/GPU 代码生成加速深度学习](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/pytorch2.md)
 
 
 
@@ -66,6 +67,8 @@
 - [Pandas 高效数据选择指南](https://github.com/Jwindler/Ice_story/blob/main/src/python/pandas_guide.md)
 - [Python 闭包使用详解(内含实例)](https://github.com/Jwindler/Ice_story/blob/main/src/python/closure.md)
 - [Python 包 install+import+管理用法总结](https://github.com/Jwindler/Ice_story/blob/main/src/python/import.md)
+- [使用 Mercury 直接从 Jupyter 构建 Web 程序](https://github.com/Jwindler/Ice_story/blob/main/src/python/Mercury.md)
+- [7 个 Python API 最佳实践](https://github.com/Jwindler/Ice_story/blob/main/src/python/api.md)
 
 
 
@@ -113,8 +116,8 @@ Python 异步教程 (已完结)
 - 如何写好科研论文
   - [摘要](https://github.com/Jwindler/Ice_story/blob/main/src/journal/abstract.md)
   - [引言](https://github.com/Jwindler/Ice_story/blob/main/src/journal/Introduction.md)
-
 - [同行评审期刊文章指南](https://github.com/Jwindler/Ice_story/blob/main/src/journal/review.md)
+- [出版学术研究论文的一些小技巧](https://github.com/Jwindler/Ice_story/blob/main/src/journal/tips2pub.md)
 
 
 
