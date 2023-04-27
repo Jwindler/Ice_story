@@ -55,6 +55,14 @@
 
 
 
+### GPT
+
+- [什么是Auto GPT-4？ OpenAI 最新语言模型概览](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/auto-gpt.md)
+
+- [如何安装 Auto GPT 4：分步指南](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/install-auto-gpt.md)
+
+
+
 ## Python
 
 - [Python 学习资料推荐](https://github.com/Jwindler/Ice_story/blob/main/src/python/python.md)
