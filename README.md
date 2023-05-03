@@ -77,6 +77,7 @@
 - [Python 包 install+import+管理用法总结](https://github.com/Jwindler/Ice_story/blob/main/src/python/import.md)
 - [使用 Mercury 直接从 Jupyter 构建 Web 程序](https://github.com/Jwindler/Ice_story/blob/main/src/python/Mercury.md)
 - [7 个 Python API 最佳实践](https://github.com/Jwindler/Ice_story/blob/main/src/python/api.md)
+- [在 Python 中将 Tqdm 与 Asyncio 结合使用](https://github.com/Jwindler/Ice_story/blob/main/src/python/Tqdm.md)
 
 
 
