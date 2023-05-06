@@ -78,6 +78,7 @@
 - [使用 Mercury 直接从 Jupyter 构建 Web 程序](https://github.com/Jwindler/Ice_story/blob/main/src/python/Mercury.md)
 - [7 个 Python API 最佳实践](https://github.com/Jwindler/Ice_story/blob/main/src/python/api.md)
 - [在 Python 中将 Tqdm 与 Asyncio 结合使用](https://github.com/Jwindler/Ice_story/blob/main/src/python/Tqdm.md)
+- [Python: 结合多进程和 Asyncio 以提高性能](https://github.com/Jwindler/Ice_story/blob/main/src/python/MultiAsyncio.md)
 
 
 
