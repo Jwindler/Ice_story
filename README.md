@@ -79,6 +79,7 @@
 - [7 个 Python API 最佳实践](https://github.com/Jwindler/Ice_story/blob/main/src/python/api.md)
 - [在 Python 中将 Tqdm 与 Asyncio 结合使用](https://github.com/Jwindler/Ice_story/blob/main/src/python/Tqdm.md)
 - [Python: 结合多进程和 Asyncio 以提高性能](https://github.com/Jwindler/Ice_story/blob/main/src/python/MultiAsyncio.md)
+- [使用这些方法让你的 Python 并发任务执行得更好](https://github.com/Jwindler/Ice_story/blob/main/src/python/Concurrent.md)
 
 
 
@@ -118,6 +119,8 @@ Python 异步教程 (已完结)
 ## 数统
 
 - [数据分析：通俗易懂假设检验](https://github.com/Jwindler/Ice_story/blob/main/src/math/introh_hypothesis_test.md)
+- [为什么以及如何在多重假设检验中调整 P 值](https://github.com/Jwindler/Ice_story/blob/main/src/math/P-values.md)
+- [R 中的探索性相关分析](https://github.com/Jwindler/Ice_story/blob/main/src/math/Correlational.md)
 
 
 
