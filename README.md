@@ -63,14 +63,20 @@
 
 
 
+## 可视化
+
+- [散点图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization/01_scatterplot.md)
+- [气泡图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization/02_bubble_chart.md)
+- [如何反转ggplot2中的图例键顺序](https://github.com/Jwindler/Ice_story/blob/main/src/visualization/reverse_legend.md)
+
+
+
 ## Python
 
 - [Python 学习资料推荐](https://github.com/Jwindler/Ice_story/blob/main/src/python/python.md)
 - [使用 `json.load()` 和 `loads()` 进行 `Python` `JSON` 解析](https://github.com/Jwindler/Ice_story/blob/main/src/python/json_load_loads.md)
 - [性能分析](https://github.com/Jwindler/Ice_story/blob/main/src/python/memory_line_profiler.md)
-- `matplotlib` 可视化 50图
-  - [散点图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization_50/01_scatterplot.md)
-  - [气泡图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization_50/02_bubble_chart.md)
+
 - [9个Python 内置装饰器: 显著优化代码](https://github.com/Jwindler/Ice_story/blob/main/src/python/9_decorators.md)
 - [Pandas 高效数据选择指南](https://github.com/Jwindler/Ice_story/blob/main/src/python/pandas_guide.md)
 - [Python 闭包使用详解(内含实例)](https://github.com/Jwindler/Ice_story/blob/main/src/python/closure.md)
