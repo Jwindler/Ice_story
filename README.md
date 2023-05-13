@@ -25,11 +25,10 @@
 - [使用 Python 探索 感知机 算法](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/perceptron.md)
 - [层次聚类算法](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Hierarchical_Cluster.md)
 - [机器学习模型的性能评估方法](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/performance_estimation.md)
-
 - [用 Dropout 正则化对抗 过拟合](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Regularization.md)
-
 - [自然语言处理知识图谱的十年](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Knowledge_Graphs.md)
 - [机器学习：XGBoost算法介绍](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/XGBOOST.md)
+- [机器学习指标: F1分数](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/metric.md)
 
 
 

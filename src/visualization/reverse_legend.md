@@ -42,7 +42,7 @@ ggsave("how_to_reverse_legend_key_order_legend_with_color.png")
 
 这就是使用默认图例键排序的散点图的样子。
 
-![image-20230509110836338](/home/jzj/.config/Typora/typora-user-images/image-20230509110836338.png)
+![](https://s2.loli.net/2023/05/13/ZT29WGew4Yu1lpj.png)
 
 
 
