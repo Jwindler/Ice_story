@@ -62,6 +62,14 @@
 
 
 
+
+
+## 计算机视觉
+
+- [目标检测：RPN — Faster R-CNN 的主干]((https://github.com/Jwindler/Ice_story/blob/main/src/cv/RPN.md))
+
+
+
 ## 可视化
 
 - [散点图](https://github.com/Jwindler/Ice_story/blob/main/src/visualization/01_scatterplot.md)
