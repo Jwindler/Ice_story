@@ -67,6 +67,7 @@
 ## 计算机视觉
 
 - [目标检测：RPN — Faster R-CNN 的主干]((https://github.com/Jwindler/Ice_story/blob/main/src/cv/RPN.md))
+- [Region Proposal Network (RPN) 架构详解]((https://github.com/Jwindler/Ice_story/blob/main/src/cv/RPN_deatil.md))
 
 
 
