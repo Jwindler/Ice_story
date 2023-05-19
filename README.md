@@ -79,6 +79,14 @@
 
 
 
+## 工具
+
+- [Axel – 用于 Linux 的命令行文件下载加速器](https://github.com/Jwindler/Ice_story/blob/main/src/tools/axel.md)
+
+
+
+
+
 ## Python
 
 - [Python 学习资料推荐](https://github.com/Jwindler/Ice_story/blob/main/src/python/python.md)
