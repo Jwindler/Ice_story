@@ -29,6 +29,7 @@
 - [自然语言处理知识图谱的十年](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Knowledge_Graphs.md)
 - [机器学习：XGBoost算法介绍](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/XGBOOST.md)
 - [机器学习指标: F1分数](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/metric.md)
+- [机器学习模型的生命周期](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/lifetime_ml.md)
 
 
 
