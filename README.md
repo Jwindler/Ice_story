@@ -58,8 +58,8 @@
 ### GPT
 
 - [什么是Auto GPT-4？ OpenAI 最新语言模型概览](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/auto-gpt.md)
-
 - [如何安装 Auto GPT 4：分步指南](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/install-auto-gpt.md)
+- [从 数据工程 到 Prompt 工程](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/Prompt.md)
 
 
 
