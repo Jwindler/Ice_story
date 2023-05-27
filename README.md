@@ -5,7 +5,7 @@
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Jwindler/Ice_story&type=Date)](https://star-history.com/#Jwindler/Ice_story&Date)
+[![](https://api.star-history.com/svg?repos=Jwindler/Ice_story&type=Date)](https://star-history.com/#Jwindler/Ice_story&Date)
 
 
 
@@ -52,6 +52,7 @@
 - [自然语言处理：词嵌入简介](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/nlp/1_Word_Embeddings.md)
 - [Word2Vec：一种基于预测的方法](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/nlp/2_Word2Vec.md)
 - [Pytorch 2.0 如何通过算子融合和 CPU/GPU 代码生成加速深度学习](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/pytorch2.md)
+- [Backbone 在神经网络中意味着什么？](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/backbone.md)
 
 
 
