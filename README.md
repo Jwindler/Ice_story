@@ -61,6 +61,7 @@
 - [什么是Auto GPT-4？ OpenAI 最新语言模型概览](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/auto-gpt.md)
 - [如何安装 Auto GPT 4：分步指南](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/install-auto-gpt.md)
 - [从 数据工程 到 Prompt 工程](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/Prompt.md)
+- [GPT 模型的工作原理](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/GPT.md)
 
 
 
@@ -85,6 +86,7 @@
 ## 工具
 
 - [Axel – 用于 Linux 的命令行文件下载加速器](https://github.com/Jwindler/Ice_story/blob/main/src/tools/axel.md)
+- [2023 年 10 个最受欢迎的 Linux 发行版](https://github.com/Jwindler/Ice_story/blob/main/src/tools/linux.md)
 
 
 
