@@ -98,7 +98,6 @@
 - [Python 学习资料推荐](https://github.com/Jwindler/Ice_story/blob/main/src/python/python.md)
 - [使用 `json.load()` 和 `loads()` 进行 `Python` `JSON` 解析](https://github.com/Jwindler/Ice_story/blob/main/src/python/json_load_loads.md)
 - [性能分析](https://github.com/Jwindler/Ice_story/blob/main/src/python/memory_line_profiler.md)
-
 - [9个Python 内置装饰器: 显著优化代码](https://github.com/Jwindler/Ice_story/blob/main/src/python/9_decorators.md)
 - [Pandas 高效数据选择指南](https://github.com/Jwindler/Ice_story/blob/main/src/python/pandas_guide.md)
 - [Python 闭包使用详解(内含实例)](https://github.com/Jwindler/Ice_story/blob/main/src/python/closure.md)
@@ -108,6 +107,7 @@
 - [在 Python 中将 Tqdm 与 Asyncio 结合使用](https://github.com/Jwindler/Ice_story/blob/main/src/python/Tqdm.md)
 - [Python: 结合多进程和 Asyncio 以提高性能](https://github.com/Jwindler/Ice_story/blob/main/src/python/MultiAsyncio.md)
 - [使用这些方法让你的 Python 并发任务执行得更好](https://github.com/Jwindler/Ice_story/blob/main/src/python/Concurrent.md)
+- [这3个Python 函数你知道吗？](https://github.com/Jwindler/Ice_story/blob/main/src/python/3_fun.md)
 
 
 
