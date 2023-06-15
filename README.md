@@ -88,6 +88,7 @@
 
 - [Axel – 用于 Linux 的命令行文件下载加速器](https://github.com/Jwindler/Ice_story/blob/main/src/tools/axel.md)
 - [2023 年 10 个最受欢迎的 Linux 发行版](https://github.com/Jwindler/Ice_story/blob/main/src/tools/linux.md)
+- [如何在 Linux 中使用 Bash For 循环](https://github.com/Jwindler/Ice_story/blob/main/src/tools/loop.md)
 
 
 
