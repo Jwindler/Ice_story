@@ -171,6 +171,7 @@ Python 异步教程 (已完结)
 - [序列操作神器：Seqkit](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Seqkit.md)
 - [Wget 常用方法](https://github.com/Jwindler/Ice_story/blob/main/src/biology/Wget.md)
 - [单细胞基础教程：整合分析](https://github.com/Jwindler/Ice_story/blob/main/src/biology/scRNA-seq/scRNA-seq_Integrate.md)（无法下载示例数据集的，请关注下方公众号，并留言）
+- [比较基因组：点图介绍与可视化](https://github.com/Jwindler/Ice_story/blob/main/src/biology/dotplot.md)
 
 
 
