@@ -30,6 +30,7 @@
 - [机器学习：XGBoost算法介绍](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/XGBOOST.md)
 - [机器学习指标: F1分数](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/metric.md)
 - [机器学习模型的生命周期](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/lifetime_ml.md)
+- [随机森林和缺失值](https://github.com/Jwindler/Ice_story/blob/main/src/machine_learning/Random_Forests_v2.md)
 
 
 
