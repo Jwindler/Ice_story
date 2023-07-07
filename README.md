@@ -93,6 +93,7 @@
 - [如何在 Linux 中使用 Bash For 循环](https://github.com/Jwindler/Ice_story/blob/main/src/tools/loop.md)
 - [如何在多个 Linux 服务器上运行多个命令](https://github.com/Jwindler/Ice_story/blob/main/src/tools/multiple_linux.md)
 - [如何在Linux 系统上免费托管网站](https://github.com/Jwindler/Ice_story/blob/main/src/tools/web_host.md)
+- [Ubuntu 包管理的 20 个“apt-get”命令](https://github.com/Jwindler/Ice_story/blob/main/src/tools/apt-get.md)
 
 
 
