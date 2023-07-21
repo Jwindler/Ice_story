@@ -57,6 +57,7 @@
 - [在 PyTorch 中实现可解释的神经网络模型](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/interpretable.md)
 - [如何轻松配置深度学习模型](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/toml.md)
 - [微调预训练的 NLP 模型](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/nlp/Fine-Tune.md)
+- [Transformer 模型实用介绍：BERT](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/BERT.md)
 
 
 
