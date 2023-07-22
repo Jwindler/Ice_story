@@ -118,6 +118,7 @@
 - [Python: 结合多进程和 Asyncio 以提高性能](https://github.com/Jwindler/Ice_story/blob/main/src/python/MultiAsyncio.md)
 - [使用这些方法让你的 Python 并发任务执行得更好](https://github.com/Jwindler/Ice_story/blob/main/src/python/Concurrent.md)
 - [这3个Python 函数你知道吗？](https://github.com/Jwindler/Ice_story/blob/main/src/python/3_fun.md)
+- [哈希函数如何工作 ?](https://github.com/Jwindler/Ice_story/blob/main/src/python/hash.md)
 
 
 
