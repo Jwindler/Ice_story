@@ -58,6 +58,7 @@
 - [如何轻松配置深度学习模型](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/toml.md)
 - [微调预训练的 NLP 模型](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/nlp/Fine-Tune.md)
 - [Transformer 模型实用介绍：BERT](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/BERT.md)
+- [PyTorch 中的多 GPU 训练和梯度累积作为替代方案](https://github.com/Jwindler/Ice_story/blob/main/src/deep_learning/Multiple_GPU.md)
 
 
 
